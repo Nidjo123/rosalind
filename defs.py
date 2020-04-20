@@ -1,4 +1,7 @@
 
+DNA_pairs = {'A': 'T', 'C': 'G'}
+DNA_pairs.update({v: k for k, v in pairs.items()})
+
 
 RNA_codons = {}
 
